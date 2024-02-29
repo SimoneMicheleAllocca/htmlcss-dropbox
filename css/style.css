@@ -15,6 +15,10 @@ header{
     height: 70px;
     width: 100%;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .box-header{
@@ -29,4 +33,22 @@ header{
 
 .central{
     background-color: rgb(243, 95, 95);
+}
+
+/* HERO */
+.background-hero{
+    background-color: lightseagreen;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.box-hero{
+    height: 500px;
+    width: 60%;
+    background-color: rgb(222, 156, 35);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: auto;
 }
