@@ -96,3 +96,18 @@ header{
     background-color: green;
 }
 
+/* TITLE SECTION */
+h2{
+    font-weight: 900;
+}
+
+/* SECTION IMG */
+.card{
+    background-color: rgb(193, 189, 189);
+    height: 400px;
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
+}
+
+
+
