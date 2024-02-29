@@ -83,4 +83,16 @@ header{
     height: 200px;
 }
 
+/* SECOND SECTION */
+.box-blu{
+    width:60%;
+    height:500px;
+    background-color: blue;
+}
+
+.box-green{
+    width: 40%;
+    height: 500px;
+    background-color: green;
+}
 
