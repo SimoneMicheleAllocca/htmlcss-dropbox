@@ -37,7 +37,7 @@ header{
 
 /* HERO */
 .background-hero{
-    background-color: lightseagreen;
+    background-color: rgb(150, 240, 235);
     height: 600px;
     width: 100%;
     display: flex;
@@ -46,9 +46,23 @@ header{
 .box-hero{
     height: 500px;
     width: 60%;
-    background-color: rgb(222, 156, 35);
-    display: flex;
-    justify-content: center;
+    background-color: rgb(237, 191, 107);
     margin-bottom: 0;
     margin-top: auto;
+}
+
+/* CONTAINER */
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* FIRST SECTION */
+.first-box{
+    width: 100%;
+    background-color: rgb(155, 72, 155);
+    height: 150px;
 }
