@@ -109,5 +109,28 @@ h2{
     margin: 5px;
 }
 
+.last-box{
+    justify-content: left;
+    background-color: blue;
+    margin-top: 50px;
+    width: 60%;
+    height: 200px;
+}
+
+/* SECTION WITH THREE BOXES */
+.section-square{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+ .square{
+    width: calc(100% / 3);
+    height: 400px;
+ }
+
+ .left-s,.right-s{
+    background-color: rgb(81, 243, 255);
+ }
+
 
 
