@@ -104,6 +104,13 @@ button{
     margin-left: 30px;
 }
 
+.btn-partner{
+    background-color: white;
+    color: rgb(107, 101, 101);
+    border: 1px solid rgb(107, 101, 101);
+    margin-top: 60px;
+    padding: 10px;
+}
 
 /* HEADER */
 header{
@@ -250,16 +257,19 @@ hr{
     margin: 20px;
 }
 /* SECOND SECTION */
-.box-blu{
+.box-img{
     width:60%;
-    height:500px;
-    background-color: blue;
+    /* height:500px; */
+    /* background-color: blue; */
 }
-
-.box-green{
+p{
+    margin-top: 20px;
+}
+.box-p{
     width: 40%;
-    height: 500px;
-    background-color: green;
+    padding: 40px;
+    /* height: 500px; */
+    /* background-color: green; */
 }
 
 /* TITLE SECTION */
