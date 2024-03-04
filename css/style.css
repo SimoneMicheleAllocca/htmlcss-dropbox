@@ -32,6 +32,10 @@ h1{
     padding: 50px 0 0 50px;
 }
 
+h3{
+    font-size: 2rem;
+}
+
 
 
 /* LINK */
@@ -47,6 +51,10 @@ a{
     justify-content: center;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 /* BUTTON */
 button{
     background-color: rgb(64, 64, 244);
@@ -54,6 +62,10 @@ button{
     border: none;
     padding: 5px 8px;
     font-size: 1rem;
+}
+
+.prova{
+    margin-bottom: 50px;
 }
 
 
@@ -129,10 +141,6 @@ header{
     padding-bottom: 50px;
 }
 
-.prova{
-    margin-bottom: 50px;
-}
-
 .fa-arrow-down{
     font-size: 60px;
     padding: 20px 0 15px 0;
@@ -147,7 +155,29 @@ header{
     justify-content: center;
 }
 
-/* FIRST SECTION */
+/* BUSINESS CARD */
+    .business{
+        margin-top: 120px;
+        line-height: 50px;
+    }
+
+    .radio-btn{
+        margin: 15px;
+        padding-right: 30px;
+    }
+        /* USER ICON */
+    .user{
+        border: 1px solid rgb(180, 175, 175);
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* DETAILS CARD */
+    .sup{
+        padding:15px;
+    }
+/* COLUMN-ROW */
+
 .column{
     width: 50%;
     flex-wrap: wrap;
@@ -155,15 +185,16 @@ header{
 }
 .row{
     width: 100%;
-    background-color: rgb(155, 72, 155);
-    height: 150px;
+    background-color:white;
+     height: 150px;
     margin-bottom: 10px;
 }
+
 
 .col{
     width: calc(100% / 3 - 5px);
     height: 700px;
-    background-color: rgb(193, 189, 189);
+    background-color:white;
 }
 .last{
     margin-top: 10px;
