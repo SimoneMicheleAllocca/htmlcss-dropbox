@@ -212,6 +212,11 @@ header{
     .sup{
         padding:15px;
     }
+
+    .enterprice{
+        padding-bottom: 30px;
+        padding-left: 25px;
+    }
 /* COLUMN-ROW */
 
 .column{
@@ -222,7 +227,7 @@ header{
 .row{
     width: 100%;
     background-color:white;
-     height: 150px;
+     /* height: 150px; */
     margin-bottom: 10px;
 }
 
@@ -236,7 +241,8 @@ header{
 }
 .last{
     margin-top: 10px;
-    height: 200px;
+    /* height: 200px; */
+    border: 1px solid gray;
 }
 
 hr{
