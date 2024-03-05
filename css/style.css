@@ -115,6 +115,7 @@ button{
 .gratis-prova{
     background-color: white;
     color: black;
+    padding: 20px;
 
 }
 
@@ -176,14 +177,14 @@ header{
 }
 
 .hero-box-2{
-    width: 70%;
+    width: 60%;
 }
 
 .hero-img{
     position: relative;
-    top: 70px;
+    top: 80px;
     left: 70px;
-
+    width: 150%;
 }
 
 .p-hero{
@@ -218,7 +219,7 @@ header{
     .user{
         border: 1px solid rgb(180, 175, 175);
         text-align: center;
-        padding: 10px;
+        padding: 20px;
     }
 
     /* DETAILS CARD */
